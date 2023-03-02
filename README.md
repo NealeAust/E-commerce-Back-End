@@ -86,13 +86,13 @@ The image below shows a request to GET (display) all product records:
 
 For this application, the following explanation of Request types apply:
 
-**GET:** Display information from the route selected
-    - All or a single record.
-**POST:** Creates a new record (Category, Product or Tag).
-**PUT:** Updates a record.
+- **GET:** Display information from the route selected
+     - All or a single record.
+- **POST:** Creates a new record (Category, Product or Tag).
+- - **PUT:** Updates a record.
 **DELETE:** Deletes a record.
 
-*If an error message is returned the user may need to re-enter the command *npm run start*
+If an error message is returned the user may need to re-enter the command *npm run start*
 
 ## Licence
 
