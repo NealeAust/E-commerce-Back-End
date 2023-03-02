@@ -80,9 +80,9 @@ Within the Insomnia window by entering the correct port and pathway functions ar
 
 The user chooses the requests type from a drop down menu and has the option to select all records or narrows the search by adding the 'id' to the pathway.
 
-The screenshot below shows a request to GET (display) all product records:
+The image below shows a request to GET (display) all product records:
 
-![image](https://user-images.githubusercontent.com/115671306/222335489-e7ff70f1-d49f-4e45-af19-edfcc621e3eb.png
+![image](https://user-images.githubusercontent.com/115671306/222353106-97285291-d7d4-4c61-a591-a09566ae4502.png)
 
 For this application, the following explanation of Request types apply:
 
