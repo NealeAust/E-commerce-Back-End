@@ -12,6 +12,8 @@ that demonstrates the functionality of the e-commerce back end in accordance wit
 
 The following video shows the user flow through the application., including all prompts and updated tables:
 
+https://drive.google.com/file/d/1w-9EKvhECklP3dMO_Rd_6PBOrikpDluy/view
+
 
 ## Packages Used
 
@@ -20,13 +22,13 @@ The following video shows the user flow through the application., including all 
 - Sequelize: A modern TypeScript and Node.js Object Relational Mapping (ORM) that offers solid transaction support.
 - Express.js: Node.js web application framework providing broad features to build web & mobile application.
 - Insomnia API Design Platform: A collaborative API client and Design Tool.
-- .env: Used to store environment variables data used by the operating system and otherprograms (DB_Name, DB_User, DB_PW).
+- .env: Used to store environment variables data used by the operating system and other programs (DB_Name, DB_User, DB_PW).
 
 ## E-commerce Back End
 
 The E-commerce Back End web application is set-up and synced to the database at the command-line application (terminal).  Once
 the program is running the business owner or other user is able to view, create, update or delete data in the **ecommerce_db**
-database using the **Insomnia API platform**. The information being stored, viewed and modified consists of Categories, Products and Tags. 
+database using the **Insomnia API development platform**. The information being stored, viewed and modified consists of Categories, Products and Tags. 
 These are stored within the E-commerce Back End application as objects that contain properties. 
 
 ***Note***: *A description of how to use the completed web application appears in the 'Usage' section below.*
@@ -35,10 +37,10 @@ These are stored within the E-commerce Back End application as objects that cont
 
 The objective of this project was not just to produce an E-commerce Back End, it was to effectively create an application in which
 **Node.js**, **SQL**, **Sequelize** and **Express.js** could connect and work together in sync. In addition that API routes could 
-be either accessed, viewed or manipulated using the **Insomnia API platform**.
+be either accessed, viewed or manipulated using the **Insomnia API development platform**.
 
 Even though a starter code was provided the project still required a considerable amount of careful coding that had to be 
-'well thought out' to make the whole application work.
+'well thought out' to enable the whole application to work.
 
 The files that needed to be created and/or coded were as follows:
 - .env
@@ -65,7 +67,7 @@ To create the developmental database seeded with test data, at the command-line 
 2. At $ prompt type in mysql -u root -p,
 3. At Enter password prompt type in password,
 4. At mysql prompt type in source db/schema.sql,
-5.  At mysql prompt type in quit,
+5. At mysql prompt type in quit,
 6. At $ prompt type in *npm run seed*.
 
 Once completed successfully, to invoke the application the user enters the command *NPM run start*
